@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
 import FormikSmurfForm from "./smurfForm";
-import smurfList from "./smurfList";
+import SmurfList from "./smurfList";
 
 
 
@@ -15,7 +15,7 @@ class App extends Component {
         <div>Have fun!</div>
 
         <FormikSmurfForm/>
-        <smurfList/>
+        <SmurfList/>
 
       </div>
     );

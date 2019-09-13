@@ -6,10 +6,10 @@ const SmurfCard = props => {
   return (
     <div>
 
-        <h1>Name: {props.smurfList.name}</h1>
+        <h1>Name: {props.name}</h1>
 
-        <p> Height: {props.smurfList.height}</p>
-        <p> Age: {props.smurfList.age}</p>
+        <p> Height: {props.height}</p>
+        <p> Age: {props.age}</p>
         
     </div>
   );
