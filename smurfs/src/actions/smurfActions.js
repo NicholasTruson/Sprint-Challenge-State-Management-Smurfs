@@ -19,7 +19,7 @@ export const sendData = () => {
             name: '',
             age: [],
             height: '',
-            id: []
+            id: [] // USE IF ATTEMPTING STRETCH
         })
         .then(res => {
             dispatch({ type: SEND_SMURF_DATA_SUCCESS, payload: res.data});
